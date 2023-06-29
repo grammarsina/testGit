@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>회원탈퇴</title>
+    <link rel="stylesheet" href="../static/css/default.css">
+    <link rel="stylesheet" href="../static/script/slick/slick.css">
+    <link rel="stylesheet" href="../static/script/slick/slick-theme.css">
+    <link rel="stylesheet" href="../static/script/jquery-ui-1.13.0.custom/jquery-ui.min.css">
+    <link rel="stylesheet" href="../static/css/common.css">
+    <link rel="stylesheet" href="../static/css/mypage.css">
+    <script src="../static/script/jquery-3.6.0.min.js"></script>
+    <script src="../static/script/jquery-ui-1.13.0.custom/jquery-ui.min.js"></script>
+    <script src="../static/script/jquery.ui.datepicker-ko.js"></script>
+    <script src="../static/script/jquery.mask.min.js"></script>
+    <script src="../static/script/slick/slick.min.js"></script>
+    <script src="../static/script/commonContent.js"></script>
+</head>
+<body>
+    <a href="#gnb" class="skipNav">메뉴로 건너뛰기</a>
+    <a href="#content" class="skipNav">콘텐츠로 건너뛰기</a>
+    <a href="#footer" class="skipNav">푸터로 건너뛰기</a>
+
+    <header id="header">
+        <h1><a href=""><span>AI Hub</span></a></h1>
+
+        <button type="button"><span>메뉴</span></button>
+
+        <nav id="gnb">
+            <ul>
+                <li>
+                    <a href="">AI 데이터 찾기</a>
+                    <div>
+                        <a href="">적용 분야</a>
+                        <a href="">데이터 유형</a>
+                        <a href="">데이터 객체</a>
+                        <a href="">외부데이터</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="">AI 개발지원</a>
+                    <div>
+                        <a href="">AI 컴퓨팅 지원</a>
+                        <a href="">AI 바우처 지원</a>
+                        <a href="">AI S/W 지원</a>
+                        <a href="">오픈API 신청</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="">참여하기</a>
+                    <div>
+                        <a href="">경진대회</a>
+                        <a href="">일자리 참여</a>
+                        <a href="">AI 놀이터</a>
+                        <a href="">AI 데이터 제안</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="">정보공유</a>
+                    <div>
+                        <a href="">AI허브 뉴스</a>
+                        <a href="">교육정보</a>
+                        <a href="">AI 트랜드</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="">고객지원</a>
+                    <div>
+                        <a href="">문의하기</a>
+                        <a href="">자주찾는질문</a>
+                        <a href="">민원접수</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="">AI허브소개</a>
+                    <div>
+                        <a href="">AI 허브란?</a>
+                        <a href="">이용 가이드</a>
+                        <a href="">연락처 안내</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <span class="link">
+            <!--
+            <a href="">로그인</a>
+            <a href="">회원가입</a>
+            -->
+            <a href="">마이페이지</a>
+            <a href="">로그아웃</a>
+            <a href="#menuAll" class="menuAll"><span>전체메뉴</span></a>
+        </span>
+
+        <div class="headSearch searchWrap">
+            <form action="" method="" name="">
+                <input type="text" name="" title="검색어" data-placeholder="찾으시는 데이터를 입력해주세요">
+                <button type="submit"><span>검색</span></button>
+            </form>
+            <ul>
+                <li><a href="">로봇</a></li>
+                <li><a href="">로보트</a></li>
+                <li><a href="">문명</a></li>
+                <li><a href="">시드 마이어 시드 마이어 시드 마이어 시드 마이어 시드 마이어 시드 마이어 시드 마이어</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div id="menuAll">
+        <ol>
+            <li>
+                <strong>
+                    <a href="">AI 데이터 찾기</a>
+                </strong>
+                <div>
+                    <a href="">적용 분야</a>
+                    <a href="">데이터 유형</a>
+                    <a href="">데이터 객체</a>
+                    <a href="">외부데이터</a>
+                </div>
+            </li>
+            <li>
+                <strong>
+                    <a href="">AI 개발지원</a>
+                </strong>
+                <div>
+                    <a href="">AI 컴퓨팅 지원</a>
+                    <a href="">AI 바우처 지원</a>
+                    <a href="">AI S/W 지원</a>
+                    <a href="">오픈API 신청</a>
+                </div>
+            </li>
+            <li>
+                <strong>
+                    <a href="">참여하기</a>
+                </strong>
+                <div>
+                    <a href="">경진대회</a>
+                    <a href="">일자리 참여</a>
+                    <a href="">AI 놀이터</a>
+                    <a href="">AI 데이터 제안</a>
+                </div>
+            </li>
+            <li>
+                <strong>
+                    <a href="">정보공유</a>
+                </strong>
+                <div>
+                    <a href="">AI허브 뉴스</a>
+                    <a href="">교육정보</a>
+                    <a href="">AI 트랜드</a>
+                </div>
+            </li>
+            <li>
+                <strong>
+                    <a href="">고객지원</a>
+                </strong>
+                <div>
+                    <a href="">문의하기</a>
+                    <a href="">자주찾는질문</a>
+                    <a href="">민원접수</a>
+                </div>
+            </li>
+            <li>
+                <strong>
+                    <a href="">AI허브소개</a>
+                </strong>
+                <div>
+                    <a href="">AI 허브란?</a>
+                    <a href="">이용 가이드</a>
+                    <a href="">연락처 안내</a>
+                </div>
+            </li>
+        </ol>
+    </div>
+
+    <div id="location">
+        <div class="contentWrap">
+            <h2>회원정보관리</h2>
+
+            <ol>
+                <li><span>홈</span></li>
+                <li>마이페이지</li>
+                <li>회원정보관리</li>
+            </ol>
+        </div>
+    </div>
+
+    <section id="content">
+        <div class="data contentWrap">
+            <div class="linkList">
+                <a href="">마이페이지</a>
+                <a href="">관심데이터 조회</a>
+                <a href="">신청 및 문의 조회</a>
+                <a href="">교육 영상 시청 내역</a>
+                <a href="" class="on">회원정보관리</a>
+            </div>
+
+            <script>
+                $(function(){
+                    var field = $(this).data('filter');
+                    var width = 767;
+
+                    $('div.linkList a.on').on('click', function(e){
+                        if(width >= $(window).outerWidth()){
+                            e.preventDefault();
+                            !$(this).data('show') ? $(this).data('show', true).siblings().addClass('on') : $(this).data('show', false).siblings().removeClass('on');
+                        }
+                    });
+                });
+            </script>
+
+            <h3>탈퇴하기</h3>
+
+            <h4 class="info">회원탈퇴</h4>
+
+            <p class="noticeInfo drop">
+                <span>회원탈퇴와 함께 모든 개인정보가 삭제되며, 이 계정으로 작성한 모든 콘텐츠의 작성자 이름은 익명 사용자로 변경됩니다.<br>삭제된 정보는 같은 이메일 주소로 다시 가입해도 복구가 불가능합니다.</span>
+                <span>탈퇴 요청 시 회원 탈퇴를 위한 인증메일이 발송되며, 이메일을 확인하여 회원탈퇴 절차를 마무리가 필요합니다.</span>
+            </p>
+
+            <form action="" method="" name="">
+                <table class="input">
+                    <caption>회원탈퇴</caption>
+                    <tbody>
+                        <tr>
+                            <th scope="row">회원탈퇴</th>
+                            <td>
+                                <button type="button" class="white small">탈퇴하기</button>
+                                <input type="text" name="" title="인증번호" data-placeholder="이메일 주소로 발송된 인증번호를 입력해주세요.">
+                                <button type="submit" class="small function check">인증확인</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="contentWrap">
+            <span class="link">
+                <a href="https://www.msit.go.kr" title="새 창 열림" target="_blank"><span>과학기술정보통신부</span></a>
+                <a href="https://www.nia.or.kr" title="새 창 열림" target="_blank"><span>NIA - 한국지능정보사회진흥원</span></a>
+            </span>
+
+            <span class="media">
+                <strong>SOCIAL MEDIA</strong>
+                <a href="https://www.facebook.com/Al-Hub-108519080826852" title="새 창 열림" target="_blank"><span>페이스북</span></a>
+                <a href="https://www.youtube.com/channel/UCmMgn0-i7HfHNsxUYANXclw" title="새 창 열림" target="_blank"><span>유튜브</span></a>
+                <a href="https://blog.naver.com/nia-aidata" title="새 창 열림" target="_blank"><span>블로그</span></a>
+            </span>
+
+            <address>
+                <strong>CONTACT.</strong>
+                한국지능정보사회진흥원 : 대구광역시 동구 첨단로 53 (41068)
+            </address>
+
+            <span class="site">
+                <a href="">이용약관</a>
+                <a href="">개인정보처리방침</a>
+                <a href="">사이트맵</a>
+            </span>
+
+            <span class="family">
+                <a href="#family">Family Site</a>
+                <span id="family">
+                    <a href="https://www.msit.go.kr" title="새 창 열림" target="_blank">과학기술정보통신부</a>
+                    <a href="https://www.nia.or.kr" title="새 창 열림" target="_blank">한국지능정보사회진흥원</a>
+                    <a href="https://www.nipa.kr" title="새 창 열림" target="_blank">정보통신산업진흥원</a>
+                    <a href="https://www.etri.re.kr" title="새 창 열림" target="_blank">한국전자통신연구원</a>
+                </span>
+            </span>
+        </div>
+    </footer>
+</body>
+</html>
